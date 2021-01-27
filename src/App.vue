@@ -1,6 +1,6 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img class="user_icon" src="./assets/user_icon.png">
+  <HelloWorld/>
 </template>
 
 <script>
@@ -19,8 +19,13 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+   .user_icon {
+     width: 80px;
+     height: 80px;
+     position: absolute;
+     right: 50px;
+     top: 30px;
+   }
 }
 </style>
