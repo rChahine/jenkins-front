@@ -1,4 +1,5 @@
 <template>
+  <router-link to="/login"><img class="user_icon" src="../assets/user_icon.png"></router-link>
   <div class="spacer"></div>
   <div class="row text-center">
     <div class="col-4 bg-primary card">
@@ -28,23 +29,7 @@ export default {
   padding: 10px;
   margin: 0 8vw;
   min-height: 14vh;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.spacer {
-  margin: 30vh;
-}
-
-.row {
-  display: flex;
-  padding: 0 30px;
-}
-
-.col-4 {
-  width: 33.33%;
+  box-shadow: black 3px 3px 10px 1px;
 }
 
 .bg-primary {

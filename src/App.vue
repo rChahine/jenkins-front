@@ -1,31 +1,38 @@
 <template>
-  <img class="user_icon" src="./assets/user_icon.png">
-  <HelloWorld/>
+  <router-view/>
 </template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
 
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
 
-   .user_icon {
-     width: 80px;
-     height: 80px;
-     position: absolute;
-     right: 50px;
-     top: 30px;
-   }
+.text-center {
+  text-align: center;
+}
+
+.spacer {
+  margin: 30vh;
+}
+
+.row {
+  display: flex;
+  padding: 0 30px;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.user_icon {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 30px;
+  right: 50px;
 }
 </style>
