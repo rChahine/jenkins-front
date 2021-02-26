@@ -2,7 +2,7 @@
   <router-link to="/login"><img class="user_icon" src="../assets/user_icon.png"></router-link>
   <div class="spacer"></div>
   <div class="container">
-      <div class="row">
+      <div class="row" id="admin-rows">
           <div class="col-6">
                 <h2> Ajouter un utilisateur </h2>
 

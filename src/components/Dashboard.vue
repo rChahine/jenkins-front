@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="component">
     <div v-if="me.role == 'A'">
       <DashboardAdmin />
     </div>
@@ -11,8 +11,8 @@
 
 <script>
 import axios from "axios";
-import DashboardAdmin from "./DasboardAdmin";
-import DashboardUser from "./DasboardUser";
+import DashboardAdmin from "./DashboardAdmin";
+import DashboardUser from "./DashboardUser";
 
 export default {
   name: "Dashboard",

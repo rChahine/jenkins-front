@@ -3,7 +3,7 @@
   <div class="spacer"></div>
 
   <div class="container">
-    <div class="row">
+    <div class="row" id="row-votes">
       <div class="col-3" v-for="(c, index) in choices" :key="c.choice.id">
         <div class="card" :class="getRandomColor(index)" style="min-width: 10rem;" @click="vote(c.choice.id, c.choosen)">
           <h2>{{ c.choice.wording }}</h2>
