@@ -8,7 +8,7 @@ pipeline {
                 '''
             }
         }
-        stage('build application') {
+        stage('Run tests') {
             steps {
                 sh '''#!/bin/bash
                     npm run test:unit
